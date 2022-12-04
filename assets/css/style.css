@@ -7,6 +7,10 @@
     line-height: 15px;
 }
 
+.text-fitur p {
+    text-transform: capitalize;
+}
+
 .fixed-bottom {
     border-radius: 15px;
 }
@@ -103,6 +107,7 @@
 
 .truk img {
     margin-top: 4px;
+    margin-left: -6px;
     width: 50px;
 }
 

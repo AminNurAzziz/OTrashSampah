@@ -1,0 +1,115 @@
+.ucapan {
+    height: 60px;
+}
+
+.ucapan h6 {
+    font-size: 19px;
+    line-height: 15px;
+}
+
+.fixed-bottom {
+    border-radius: 15px;
+}
+
+.icon a img {
+    height: 30px;
+    color: white;
+}
+
+.ucapan p {
+    font-size: 14px;
+}
+
+.ucapan span {
+    margin: auto;
+    margin-left: -9px;
+    padding-top: 7px;
+}
+
+.box-ucapan {
+    height: 100%;
+    overflow: hidden;
+}
+
+.daun1 {
+    border-top: 3px solid rgb(44, 153, 68);
+    border-right: 3px solid rgb(44, 153, 68);
+    border-bottom: 3px solid rgb(44, 153, 68);
+    width: 70%;
+    /* background-color: aqua; */
+    border-radius: 50%;
+    /* margin-left: -15px; */
+}
+
+.daun1 img {
+    padding: 6px;
+    border-radius: 50%;
+    width: 100%;
+    /* margin: auto; */
+}
+
+.daun2 {
+    border-top: 3px solid rgb(44, 153, 68);
+    border-right: 3px solid rgb(201, 204, 21);
+    border-bottom: 3px solid rgb(226, 137, 20);
+    border-left: 3px solid rgb(22, 162, 218);
+    width: 70%;
+    /* background-color: aqua; */
+    border-radius: 50%;
+    /* margin-left: -15px; */
+}
+
+.daun2 img {
+    padding: 6px;
+    border-radius: 50%;
+    width: 100%;
+    /* margin: auto; */
+}
+
+.head2 {
+    box-shadow: 0px 4px 5px 3px rgba(0, 0, 0, 0.123);
+}
+
+.point img {
+    margin-top: -5px;
+    border-radius: 50%;
+    width: 17px;
+}
+
+.point p {
+    font-size: 20px;
+
+}
+
+.head1,
+.head2,
+.head-22 {
+    border-radius: 10px;
+}
+
+.fitur button {
+    border-radius: 10px;
+}
+
+.content {
+    background-color: rgb(241, 241, 241);
+    margin-top: -640px;
+    border-radius: 20px 20px 0 0;
+}
+
+.text-fitur p {
+    font-size: 14px;
+}
+
+.truk img {
+    margin-top: 4px;
+    width: 50px;
+}
+
+.dropoff img {
+    width: 42px;
+}
+
+.ot-box img {
+    width: 42px;
+}

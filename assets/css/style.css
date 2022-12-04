@@ -7,15 +7,6 @@
     line-height: 15px;
 }
 
-.header {
-    padding-top: 100px;
-}
-
-.navigasi {
-    display: flex;
-    background-color: antiquewhite;
-}
-
 .text-fitur p,
 .text-fitur h6 {
     text-transform: capitalize;

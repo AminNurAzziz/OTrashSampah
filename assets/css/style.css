@@ -88,7 +88,8 @@
 
 .head1,
 .head2,
-.head-22 {
+.head-22,
+.head-profil {
     border-radius: 10px;
 }
 
@@ -141,4 +142,35 @@
 
 .text-dark {
     font-size: 15px;
+}
+
+.chat {
+    font-family: cursive;
+
+}
+
+.nav-chat {
+    background-color: rgb(93, 194, 132);
+}
+
+
+.profil {
+    border-top: 3px solid rgb(44, 153, 68);
+    border-right: 3px solid rgb(44, 153, 68);
+    border-bottom: 3px solid rgb(44, 153, 68);
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.profil img {
+    padding: 10px;
+    width: 100%;
+}
+
+.bg-profil {
+    background-color: rgb(196, 196, 196);
 }

@@ -35,24 +35,24 @@
     <nav class="navbar bg-white shadow-lg text-white fixed-bottom mb-2 mx-2">
         <div class="container-fluid justify-content-center">
             <div class="text-center mx-2">
-                <a style="color:#3d3d3d;" href="#"><i class="fas fa-1x fa-house"></i></a>
+                <a style="color:#3d3d3d;" href="index.html"><i class="fas fa-1x fa-house"></i></a>
                 <p class="text-dark m-0 ">Home</p>
             </div>
-            <div class="text-center mx-2">
+            <div class="text-center mx-2 " id="mutasi">
                 <a style="color:#2e2e2e;" href="#"><i class="fas fa-1x fa-credit-card"></i></a>
                 <p class="text-dark m-0">Mutasi</p>
             </div>
 
 
-            <div class="mx-3">
+            <div class="mx-3" id="mutasi">
                 <a style="color:#349b34;" href="#"><i class="fas fa-3x fa-plus-circle"></i></a>
             </div>
             <div class="text-center mx-2">
-                <a style="color:#2e2e2e;" href="#"><i class="fas fa-1x fa-comment-dots"></i></a>
+                <a style="color:#2e2e2e;" href="chat.html"><i class="fas fa-1x fa-comment-dots"></i></a>
                 <p class="text-dark m-0">Chat</p>
             </div>
             <div class="text-center mx-2">
-                <a style="color:#2e2e2e;" href="#"><i class="fas fa-1x fa-user"></i></a>
+                <a style="color:#2e2e2e;" href="akun.html"><i class="fas fa-1x fa-user"></i></a>
                 <p class="text-dark m-0">User</p>
             </div>
         </div>
@@ -89,7 +89,8 @@
                             <span> <img src="assets/img/daun.png"></span>
                             <b>Point</b>
                             <h1>0</h1>
-                            <button style="width: 100%;" type="button" class="btn btn-success py-2 p-3 fw-bold">
+                            <button id="mutasi" style="width: 100%;" type="button"
+                                class="btn btn-success py-2 p-3 fw-bold">
                                 <i class="fa fa-sm fa-plus" aria-hidden="true"></i> Top Up</button>
                         </div>
                     </div>
@@ -97,13 +98,14 @@
                         <div class="d-flex point isi my-2">
                             <span>
                                 <a href="">
-                                    <h6 class="pt-2"> <span><i class="fas  fa-share"></i></span> Share</h6>
+                                    <h6 id="mutasi" class="pt-2"> <span><i class="fas  fa-share"></i></span> Share</h6>
                                 </a>
                                 <a href="">
-                                    <h6 class="pt-2"> <span><i class="fas fa-exchange-alt"></i></span> Redeem</h6>
+                                    <h6 id="mutasi" class="pt-2"> <span><i class="fas fa-exchange-alt"></i></span>
+                                        Redeem</h6>
                                 </a>
                                 <a href="">
-                                    <h6 class="pt-2"> <span><i class="fas fa-equals"></i></span> Bills</h6>
+                                    <h6 id="mutasi" class="pt-2"> <span><i class="fas fa-equals"></i></span> Bills</h6>
                                 </a>
                             </span>
                         </div>
@@ -114,7 +116,7 @@
 
         <section>
             <div class="fitur mx-4 mt-2 pt-3 d-flex justify-content-center">
-                <button type="button" class=" text-start btn btn-success" style="width: 100%;">
+                <button id="mutasi" type="button" class=" text-start btn btn-success" style="width: 100%;">
                     <div class="row">
                         <div class="col-2 truk px-2 py-1">
                             <img src="assets/img/truk.png" alt="">
@@ -131,7 +133,7 @@
 
 
             <div class="fitur mx-4 mt-2 d-flex justify-content-center">
-                <button type="button" class=" text-start btn btn-primary" style="width: 100%;">
+                <button id="mutasi" type="button" class=" text-start btn btn-primary" style="width: 100%;">
                     <div class="row">
                         <div class="col-2 dropoff px-2 py-1">
                             <img class="bg-light rounded" src="assets/img/box1.png" alt="">
@@ -161,7 +163,7 @@
                 </button>
             </div>
             <div class="fitur mx-4 mt-2 d-flex justify-content-center">
-                <button type="button" class=" text-start btn btn-light border" style="width: 100%;">
+                <button id="mutasi" type="button" class=" text-start btn btn-light border" style="width: 100%;">
                     <div class="row">
                         <div class="col-2 ot-box px-2 py-1">
                             <img src="assets/img/bag.png" alt="">
@@ -176,7 +178,7 @@
                 </button>
             </div>
             <div class="fitur mx-4 mt-2 d-flex justify-content-center">
-                <button type="button" class=" text-start btn btn-warning border" style="width: 100%;">
+                <button id="mutasi" type="button" class=" text-start btn btn-warning border" style="width: 100%;">
                     <div class="row">
                         <div class="col-2 ot-box px-2 py-1">
                             <img src="assets/img/donasi.jfif" alt="">
@@ -196,6 +198,14 @@
     <div class="content bg-light position-absolut" style="height: 560px;">
     </div>
 
+
+    <script>
+        var aa = document.querySelectorAll('#mutasi')
+        for (int = i = 0; i < aa.length; i++) {
+            aa[i].addEventListener('click', () => {
+                alert("Mohon Maaf Fitur sedang dalam tahap pengembangan");
+            })
+        }
 
     </script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>

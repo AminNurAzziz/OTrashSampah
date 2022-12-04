@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar bg-success text-white">
+    <nav style="box-shadow: none;" class="navbar bg-success text-white">
         <div class="container-fluid px-3">
             <!-- <div><i class=" bi bi-app-indicator"></i></div> -->
             <a class="navbar-brand text-white mx-auto" href="#">
@@ -33,30 +33,33 @@
         </div>
     </nav>
     <nav class="navbar bg-white shadow-lg text-white fixed-bottom mb-2 mx-2">
-        <div class="container-fluid px-3 py-1 justify-content-center">
-            <div>
-                <a style="color:#2e2e2e;" href="#"><i class="fas me-4 fa-2x fa-bell"></i></a>
+        <div class="container-fluid justify-content-center">
+            <div class="text-center mx-2">
+                <a style="color:#3d3d3d;" href="#"><i class="fas fa-1x fa-house"></i></a>
+                <p class="text-dark m-0 ">Home</p>
             </div>
-            <div>
-                <a style="color:#2e2e2e;" href="#">
-                    <i class="far me-4  fa-2x fa-comment-dots"></i>
-                </a>
+            <div class="text-center mx-2">
+                <a style="color:#2e2e2e;" href="#"><i class="fas fa-1x fa-credit-card"></i></a>
+                <p class="text-dark m-0">Mutasi</p>
             </div>
 
-            <div class="">
-                <a style="color:#349b34;" href="#"><i class="fas me-4  fa-3x fa-plus-circle"></i></a>
+
+            <div class="mx-3">
+                <a style="color:#349b34;" href="#"><i class="fas fa-3x fa-plus-circle"></i></a>
             </div>
-            <div>
-                <a style="color:#2e2e2e;" href="#"><i class="far me-4 fa-2x fa-credit-card "></i></a>
+            <div class="text-center mx-2">
+                <a style="color:#2e2e2e;" href="#"><i class="fas fa-1x fa-comment-dots"></i></a>
+                <p class="text-dark m-0">Chat</p>
             </div>
-            <div>
-                <a style="color:#2e2e2e;" href="#"><i class="far me-4 fa-2x fa-user"></i></a>
+            <div class="text-center mx-2">
+                <a style="color:#2e2e2e;" href="#"><i class="fas fa-1x fa-user"></i></a>
+                <p class="text-dark m-0">User</p>
             </div>
         </div>
     </nav>
 
     <section>
-        <div class="container-fluid bg-success py-2" style="height:200px">
+        <div class="container-fluid bg-success py-2" style="height:250px">
 
             <div class="head1 bg-light mx-2 py-2">
                 <div class="row box-ucapan">
@@ -81,21 +84,27 @@
 
             <div class="head2 bg-light position-relative mx-2 mt-4">
                 <div class="row justify-content-center">
-                    <div class="col-5 bg-light m-2 border head-22" style="height:130px">
+                    <div class="col-5 bg-light m-2 border head-22">
                         <div class="point isi my-2">
                             <span> <img src="assets/img/daun.png"></span>
                             <b>Point</b>
                             <h1>0</h1>
-                            <button type="button" class="btn btn-success py-2 p-3 fw-bold">
+                            <button style="width: 100%;" type="button" class="btn btn-success py-2 p-3 fw-bold">
                                 <i class="fa fa-sm fa-plus" aria-hidden="true"></i> Top Up</button>
                         </div>
                     </div>
-                    <div class="col-5 bg-light m-2" style="height:130px">
+                    <div class="col-5 bg-light m-2">
                         <div class="d-flex point isi my-2">
                             <span>
-                                <h6 class="pt-2"> <span><i class="fas fa-share"></i></span> Share</h6>
-                                <h6 class="pt-2"> <span><i class="fas fa-exchange-alt"></i></span> Redeem</h6>
-                                <h6 class="pt-2"> <span><i class="fas fa-equals"></i></span> Bills</h6>
+                                <a href="">
+                                    <h6 class="pt-2"> <span><i class="fas  fa-share"></i></span> Share</h6>
+                                </a>
+                                <a href="">
+                                    <h6 class="pt-2"> <span><i class="fas fa-exchange-alt"></i></span> Redeem</h6>
+                                </a>
+                                <a href="">
+                                    <h6 class="pt-2"> <span><i class="fas fa-equals"></i></span> Bills</h6>
+                                </a>
                             </span>
                         </div>
                     </div>
@@ -103,14 +112,14 @@
             </div>
         </div>
 
-        <section class="pt-4">
-            <div class="fitur mx-4 mt-5 pt-3 d-flex justify-content-center">
+        <section>
+            <div class="fitur mx-4 mt-2 pt-3 d-flex justify-content-center">
                 <button type="button" class=" text-start btn btn-success" style="width: 100%;">
                     <div class="row">
-                        <div class="col-2 truk p-2 p-0">
+                        <div class="col-2 truk px-2 py-1">
                             <img src="assets/img/truk.png" alt="">
                         </div>
-                        <div class="col-10 text-fitur p-2">
+                        <div class="col-10 text-fitur px-2 py-1">
                             <div class="ps-2">
                                 <h6 class="m-0"> <b> Pick Up</b></h6>
                                 <p class="m-0">Mitra akan jemput sampahmu</p>
@@ -121,13 +130,13 @@
             </div>
 
 
-            <div class="fitur mx-4 mt-3 d-flex justify-content-center">
+            <div class="fitur mx-4 mt-2 d-flex justify-content-center">
                 <button type="button" class=" text-start btn btn-primary" style="width: 100%;">
                     <div class="row">
-                        <div class="col-2 dropoff p-2 p-0">
+                        <div class="col-2 dropoff px-2 py-1">
                             <img class="bg-light rounded" src="assets/img/box1.png" alt="">
                         </div>
-                        <div class="col-10 text-fitur p-2">
+                        <div class="col-10 text-fitur px-2 py-1">
                             <div class="ps-2">
                                 <h6 class="m-0"> <b> Drop Off</b></h6>
                                 <p class="m-0">Antarkan langsung sampahmu</p>
@@ -136,13 +145,13 @@
                     </div>
                 </button>
             </div>
-            <div class="fitur mx-4 mt-3 d-flex justify-content-center">
+            <div class="fitur mx-4 mt-2 d-flex justify-content-center">
                 <button type="button" class=" text-start btn btn-danger " style="width: 100%;">
                     <div class="row">
-                        <div class="col-2 ot-box p-2 p-0">
+                        <div class="col-2 ot-box px-2 py-1">
                             <img src="assets/img/box2.jpg" alt="">
                         </div>
-                        <div class="col-10 text-fitur p-2">
+                        <div class="col-10 text-fitur px-2 py-1">
                             <div class="ps-2">
                                 <h6 class="m-0"> <b> oT Box</b></h6>
                                 <p class="m-0">Tukar Sampahmu menjadi point</p>
@@ -151,13 +160,13 @@
                     </div>
                 </button>
             </div>
-            <div class="fitur mx-4 mt-3 d-flex justify-content-center">
+            <div class="fitur mx-4 mt-2 d-flex justify-content-center">
                 <button type="button" class=" text-start btn btn-light border" style="width: 100%;">
                     <div class="row">
-                        <div class="col-2 ot-box p-2 p-0">
+                        <div class="col-2 ot-box px-2 py-1">
                             <img src="assets/img/bag.png" alt="">
                         </div>
-                        <div class="col-10 text-fitur p-2">
+                        <div class="col-10 text-fitur px-2 py-1">
                             <div class="ps-2">
                                 <h6 class="m-0"> <b> Company</b></h6>
                                 <p class="m-0">Khusus untuk company kamu</p>
@@ -166,13 +175,13 @@
                     </div>
                 </button>
             </div>
-            <div class="fitur mx-4 mt-3 d-flex justify-content-center">
+            <div class="fitur mx-4 mt-2 d-flex justify-content-center">
                 <button type="button" class=" text-start btn btn-warning border" style="width: 100%;">
                     <div class="row">
-                        <div class="col-2 ot-box p-2 p-0">
+                        <div class="col-2 ot-box px-2 py-1">
                             <img src="assets/img/donasi.jfif" alt="">
                         </div>
-                        <div class="col-10 text-fitur p-2">
+                        <div class="col-10 text-fitur px-2 py-1">
                             <div class="ps-2">
                                 <h6 class="m-0"> <b>Donasi</b></h6>
                                 <p class="m-0">Sisakan sedikit uangmu</p>
@@ -184,7 +193,7 @@
         </section>
 
     </section>
-    <div class="content position-absolut" style="height: 750px;">
+    <div class="content bg-light position-absolut" style="height: 560px;">
     </div>
 
 
